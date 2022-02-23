@@ -12,24 +12,22 @@
     font-style: normal;
     font-weight: 400;
     src: local(""),
-     url("../font/poppins-v19-latin-regular.woff2") format("woff2"),
-     url("../font/poppins-v19-latin-regular.woff") format("woff");
-}
-  
+    url("../font/poppins-v19-latin-regular.woff2") format("woff2"),
+    url("../font/poppins-v19-latin-regular.woff") format("woff");
+} 
 @font-face {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     src: local(""), url("../font/poppins-v19-latin-500.woff2") format("woff2"),
-     url("../font/poppins-v19-latin-500.woff") format("woff");
+    url("../font/poppins-v19-latin-500.woff") format("woff");
 }
-  
 @font-face {
     font-family: "Poppins";
     font-style: normal
     font-weight: 600;
     src: local(""), url("../font/poppins-v19-latin-600.woff2") format("woff2"),
-     url("../font/poppins-v19-latin-600.woff") format("woff");
+    url("../font/poppins-v19-latin-600.woff") format("woff");
 }
   /* poppins-regular - latin */
 @font-face {
@@ -37,12 +35,12 @@
     font-style: normal;
     font-weight: 400;
     src: local(""),
-      url("../font/poppins-v19-latin-regular.woff2") format("woff2"),
+    url("../font/poppins-v19-latin-regular.woff2") format("woff2"),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
         url("../font/poppins-v19-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
   /* poppins-500 - latin */
-  @font-face {
+@font-face {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -233,15 +231,13 @@ img{
     justify-content: space-around;
 }
 .block1-q3  {
-    width: 300px;
-    background-color: pink;
-    border-radius: 70px;
+    position: relative;
 }
-.block2-q3  {
-    background-color: #666;
-}
-.block3-q2  {
-    background-color: #555;
+.plus   {
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+    font-size: 20px;
 }
 .tittle-q3  {
     margin-left: 70px;
