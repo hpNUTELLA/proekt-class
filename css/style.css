@@ -3,8 +3,86 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+/* poppins-regular - latin */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+     url("../font/poppins-v19-latin-regular.woff2") format("woff2"),
+     url("../font/poppins-v19-latin-regular.woff") format("woff");
+}
+  
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("../font/poppins-v19-latin-500.woff2") format("woff2"),
+     url("../font/poppins-v19-latin-500.woff") format("woff");
+}
+  
+@font-face {
+    font-family: "Poppins";
+    font-style: normal
+    font-weight: 600;
+    src: local(""), url("../font/poppins-v19-latin-600.woff2") format("woff2"),
+     url("../font/poppins-v19-latin-600.woff") format("woff");
+}
+  /* poppins-regular - latin */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+      url("../font/poppins-v19-latin-regular.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../font/poppins-v19-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("../font/poppins-v19-latin-500.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../font/poppins-v19-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* poppins-600 - latin */@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    src: local(""), url("../font/poppins-v19-latin-600.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../font/poppins-v19-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* poppins-700 - latin */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../font/poppins-v19-latin-700.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../font/poppins-v19-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../font/poppins-v19-latin-700.woff2") format("woff2"),
+    url("../font    /poppins-v19-latin-700.woff") format("woff");
+}
+body    {
+    font-family: 'Poppins';
+}
+
+
+
+
 a{
     text-decoration: none;
+    color: inherit;
 }
 ul{
     list-style-type: none;
@@ -19,6 +97,7 @@ img{
     width: 1250px;
     margin: 0 auto;
 }
+
 .site-header {
     background-image: url('../img/Rectangle\ 58.png');
     width: 100%;
@@ -26,11 +105,14 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.link2  {
+    color: #fff;
+}
 .site-menu-q1   {
     display: flex;
     justify-content: flex-end;
     padding-top: 15px;
-    padding-right: 200px;
+    padding-right: 300px;
 }
 .wrapper-menu-text-q1   {
     display: flex;
@@ -39,10 +121,7 @@ img{
 .menu-text  {
     margin-right: 20px;
     border-bottom: 2px solid transparent;
-    transition: .4s;
-}
-.ttt    {
-    border-bottom: 2px solid blue;
+    /* transition: all .5s ease-in-out; */
 }
 .menu-text:hover   {
     border-bottom: 2px solid blue;
@@ -55,6 +134,9 @@ img{
     color: #fff;
     text-align: center;
     padding-top: 10px;
+}
+.link-q1    {
+    color: white;
 }
 .site-hero-text-box {
     display: flex;
@@ -91,7 +173,7 @@ img{
     margin-top: 20px;
 }
 .rasm-block-q1  {
-    margin-left: 60px;
+    margin-left: 150px;
     width: 700px;
 }
 .main-left-q1    {
@@ -138,6 +220,9 @@ img{
     font-size: 50px;
     font-weight: 800;
 }
+.l2{
+    color: #000;
+}
 .tittle-q3  p{
     font-size: 16px;
     padding-top: 10px;
@@ -178,8 +263,8 @@ img{
 }
 .play-block {
     position: absolute;
-    left: 40%;
-    top: 45%;
+    left: 43%;
+    top: 43%;
     background: silver;
     width: 70px;
     height: 70px;
@@ -188,6 +273,7 @@ img{
     font-size: 30px;
     color: blue;
     padding-top: 20px;
+    padding-left: 3px;
     
 }
 .text-q4 h3     {
